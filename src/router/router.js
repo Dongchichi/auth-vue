@@ -21,6 +21,6 @@ const router = createRouter({
   routes,
 });
 router.afterEach((to) => {
-    document.title = to.meta.title || '欢迎来到我的个人站'; // 设置页面标题
+    document.title = to.meta.title || '赫兹'; // 设置页面标题
   });
 export default router;

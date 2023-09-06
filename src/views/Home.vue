@@ -1,12 +1,15 @@
 <template>
-    <div id="home">
-
+    <div >
     </div>
   </template>
   
   <script>
+
   export default {
     name: 'HomePage',
+    components: {
+        
+    },
     data() {
       return {
        
