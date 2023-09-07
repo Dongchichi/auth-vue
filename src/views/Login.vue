@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div>
     <div class="wrap">
       <div class="wrap-box">
         <div class="box-content">
@@ -610,7 +610,6 @@ body {
     width: 100%;
     height: 320px;
     background: rgba(0, 0, 0, .6);
-    z-index: 2;
     box-shadow: 0 0 10px 1px rgba(169, 169, 169, .2);
     border-radius: 3px;
     top: calc(50% - 160px);
@@ -623,6 +622,9 @@ body {
   .manager-box {
     all: initial;
     height: 380px;
+  }
+  .wrap:after {
+    display: none;
   }
 }
 </style>
