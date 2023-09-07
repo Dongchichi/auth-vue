@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../views/Home'; // 导入视图组件
-import Login from '../views/Login'; // 导入其他视图组件
-
+import Home from '../views/Home'; 
+import Login from '../views/Login'; 
 const routes = [
   {
     path: '/',
